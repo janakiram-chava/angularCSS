@@ -17,10 +17,13 @@ export class AppComponent {
     }
   }
     changeColor(){
-    //console.debug('marks: ',this.marks);
+
+    console.log('marks: ',this.marks);
       if(this.marks>=35){
+        console.log('marks: Green',this.marks);
         this.mycolor="green";
       }else {
+        console.log('marks: RED ',this.marks);
         this.mycolor="red";
       }
     }
