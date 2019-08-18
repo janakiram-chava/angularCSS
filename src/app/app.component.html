@@ -1,3 +1,7 @@
 <h1>
   {{title}}
+  <div  [style.color]="mycolor" >{{marks}}</div>
+
+    Marks <input type="text" [(ngModel)]="marks" name="marks" (ngModelChange)="changeColor()" >
+
 </h1>
